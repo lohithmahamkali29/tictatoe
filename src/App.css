@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+  background: url('/tictatoe-1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: fixed;
+  flex-wrap: space-around;
+  row-gap: 20px;
+}
+
+#heading{
+  font-size: 4rem;
+  font-weight: 200;
+  color:white;
+   text-shadow: 3px 3px 5px black, 5px 5px 2px blue, 3px 3px 1px navy;
+}
+
+.game-cont{
+  height: 400px;
+  min-width: 400px;
+  background-color: rgba(180, 125, 85, 0.593);
+  /* opacity: 50%; */
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 20px;
+box-shadow: 0 10px 30px rgba(75, 50, 30, 0.5);
+}
+
+.cell{
+height: 100px;
+width: 100px;
+background-color: white;
+border-radius: 15px;
+cursor: pointer;
+display:flex;
+align-items:center;
+justify-content: center;
+font-size: 40px;
+color: aqua;
+}
+
+#rest{
+  height:48px;
+  width:fit-content;
+  color: cyan;
+  background-color:orange;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 6px;
+  cursor:pointer;
+
+}
